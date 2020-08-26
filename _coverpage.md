@@ -2,7 +2,7 @@
 
 # JAVA学习指南
 
-**技术分享:JAVA、微服务框架、数据库、性能调优等技术.**
+> 技术分享:JAVA、微服务框架、数据库、性能调优等技术
 
 <!-- * 前端框架：vue-cli、vue-router、axios、vuex
 * UI类库：Mint-UI、Vant
