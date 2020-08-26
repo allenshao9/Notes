@@ -24,12 +24,6 @@ Git是目前世界上最先进的分布式版本控制系统，没有之一，�
 
 ![本地版本](image/bdbe.png)
 
-
-
-
-
-
-
 ### 集中化的版本控制系统
 
 接下来人们又遇到一个问题，如何让在不同系统上的开发者协同工作？ 于是，集中化的版本控制系统（Centralized Version Control Systems，简称 CVCS）应运而生。 
@@ -67,9 +61,7 @@ Git是目前世界上最先进的分布式版本控制系统，没有之一，�
 
 具体原理如下图所示，理解起来其实很简单，每个我们对提交更新一个文件之后，系统记录都会记录这个文件做了哪些更新，以增量符号Δ(Delta)表示。
 
-<img src="image/2019-3deltas.png"  style="zoom:40%;" />
-
-
+<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3deltas.png" alt="本地版本" />
 
 
 **我们怎样才能得到一个文件的最终版本呢？**
@@ -82,7 +74,7 @@ Git是目前世界上最先进的分布式版本控制系统，没有之一，�
 
 Git 不按照以上方式对待或保存数据。 反之，Git 更像是把数据看作是对小型文件系统的一组快照。 每次你提交更新，或在 Git 中保存项目状态时，它主要对当时的全部文件制作一个快照并保存这个快照的索引。 为了高效，如果文件没有修改，Git 不再重新存储该文件，而是只保留一个链接指向之前存储的文件。 Git 对待数据更像是一个 **快照流**。
 
-<img src="image/2019-3snapshots.png" alt="本地版本" style="zoom:60%;" />
+<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3snapshots.png" alt="本地版本"  />
 
 
 ### Git 的三个区
@@ -99,7 +91,7 @@ Git 不按照以上方式对待或保存数据。 反之，Git 更像是把数�
 
 3. 提交更新，找到暂存区域的文件，将快照永久性存储到 Git 仓库目录。
 
-   <img src="image/git_three_rigon.png" alt="git_three_rigon.png-212.9kB" style="zoom:40%;" /> 
+   <img src="http://static.zybuluo.com/Wind729/y4ufbhzizn3a7xfbbjibdbig/git_three_rigon.png" alt="git_three_rigon.png-212.9kB"  /> 
    
    
    
@@ -108,9 +100,7 @@ Git 不按照以上方式对待或保存数据。 反之，Git 更像是把数�
 
 ### 安装Git
 
-在官网https://git-scm.com/download/win下载 
-
-<img src="image/gitaz.png" alt="image-20200826151927748" style="zoom:50%;" /> 
+在官网https://git-scm.com/download/win下载  
 
 下载完进行默认安装即可。安装完成后，在开始菜单里面找到 "Git --> Git Bash".
 
@@ -213,7 +203,7 @@ git branch test
 git checkout test
 ```
 
-<img src="image/gitcheck.png" alt="image-20200826172156265" style="zoom:70%;" /> 
+<img src="image/gitcheck.png" alt="image-20200826172156265" /> 
 
 直接创建分支并切换
 
@@ -235,7 +225,7 @@ git checkout master
 
   如合并时出现冲突，先`git status`查看冲突的文件
 
-<img src="image/gitct.png" alt="image-20200826181322441" style="zoom:60%;" /> 
+<img src="image/gitct.png" alt="image-20200826181322441"  /> 
 
 内容中。Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容，其中<<<HEAD是指主分支修改的内容
 
@@ -277,6 +267,8 @@ git push origin
 要查看远程库的详细信息 使用 git remote –v
 
 从远程仓库更新代码:git pull
+
+推送到远程仓库： git push origin master
 
 ### 理解工作区与暂存区的区别
 
