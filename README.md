@@ -1,11 +1,7 @@
 <h1 align="center">Java学习指南</h1>
  <p align="center">
-<a href="https://ysshao.cn/Notes/#/" target="_self">
-	<img src="" width="60"/>
-</a>
+     <img src="http://chuantu.xyz/t6/740/1598497440x-591238492.png" style="zoom:67%;" />
 </p>
-
-<img src="http://chuantu.xyz/t6/740/1598497440x-591238492.png" style="zoom:67%;" />
 
 ## 目录
 
