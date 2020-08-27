@@ -61,7 +61,7 @@ Git是目前世界上最先进的分布式版本控制系统，没有之一，�
 
 具体原理如下图所示，理解起来其实很简单，每个我们对提交更新一个文件之后，系统记录都会记录这个文件做了哪些更新，以增量符号Δ(Delta)表示。
 
-<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3deltas.png" alt="本地版本" />
+![img](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3deltas.png)
 
 
 **我们怎样才能得到一个文件的最终版本呢？**
@@ -74,7 +74,7 @@ Git是目前世界上最先进的分布式版本控制系统，没有之一，�
 
 Git 不按照以上方式对待或保存数据。 反之，Git 更像是把数据看作是对小型文件系统的一组快照。 每次你提交更新，或在 Git 中保存项目状态时，它主要对当时的全部文件制作一个快照并保存这个快照的索引。 为了高效，如果文件没有修改，Git 不再重新存储该文件，而是只保留一个链接指向之前存储的文件。 Git 对待数据更像是一个 **快照流**。
 
-<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3snapshots.png" alt="本地版本"  />
+![img](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3snapshots.png)
 
 
 ### Git 的三个区
@@ -101,6 +101,8 @@ Git 不按照以上方式对待或保存数据。 反之，Git 更像是把数�
 ### 安装Git
 
 在官网https://git-scm.com/download/win下载  
+
+![本地版本](image/gitaz.png)
 
 下载完进行默认安装即可。安装完成后，在开始菜单里面找到 "Git --> Git Bash".
 
@@ -203,7 +205,7 @@ git branch test
 git checkout test
 ```
 
-<img src="image/gitcheck.png" alt="image-20200826172156265" /> 
+![本地版本](image/gitcheck.png) 
 
 直接创建分支并切换
 
@@ -225,7 +227,7 @@ git checkout master
 
   如合并时出现冲突，先`git status`查看冲突的文件
 
-<img src="image/gitct.png" alt="image-20200826181322441"  /> 
+![本地版本](image/gitct.png) 
 
 内容中。Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容，其中<<<HEAD是指主分支修改的内容
 
