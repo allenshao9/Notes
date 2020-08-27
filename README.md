@@ -105,4 +105,4 @@
 
 - 90后, 码农程序员。所有的努力都值得期许，每一份梦想都应该灌溉！
 
-  ![](resource/image/wx.jpg)
+  <img src=http://chuantu.xyz/t6/740/1598498929x1700339730.jpg />
