@@ -75,7 +75,8 @@
 ## 数据库体系
 
 ### Oracle
-
+ * [SQL优化思路](ysshao/dbdoc/SQL优化思路.md)
+ * [SQL优化案例](ysshao/dbdoc/SQL优化案例.md)
 ### DB2
 
 ### Mysql
@@ -83,18 +84,24 @@
 ## 开发工具
 
 ### 集成开发工具
+ * [IntelliJIDEA教程](ysshao/tooldoc/IntelliJIDEA教程.md)
 
 ### 代码管理工具
 * [Git入门教程](ysshao/tooldoc/Git入门教程.md)
 * [Git和SVN差异](ysshao/tooldoc/Git和SVN差异对比.md)
 * [GitLab仓库搭建](ysshao/tooldoc/GitLab环境搭建.md)
+
 ### 项目构建工具
+* [Maven教程](ysshao/tooldoc/Maven教程.md)
 
 ***
 
-## 持续更新
+## 更新说明
 
-- [ ] Spring全家桶(---正在进行中---)
+- [x] 集成开发工具IDEA(---已完成---)
+- [x] 代码管理工具Git(---已完成---)
+- [x] 项目构建工具(---已完成---)
+- [ ] Spring全家桶(---正在进行中,预计9.15日更新完毕---)
 - [ ] Java并发、JVM(---计划中---)
 - [ ] 数据库、Linux(---计划中---)
 
@@ -102,6 +109,7 @@
 
 - 本站目的是记录技术学习笔记，分享技术学习笔记、技术文章、优秀资源。
 - 若您认为侵犯你的个人知识产权，请联系[邮箱](allenshao9@163.com)，我会第一时间和您进行沟通处理。
+- 若你喜欢本站内容，欢迎转载，但请注明出处，且勿用于商业用途，谢谢！
 - 90后, 码农程序员。所有的努力都值得期许，每一份梦想都应该灌溉！
 
 <img src="resource/image/wx.jpg" alt="wx" style="zoom:67%;" />

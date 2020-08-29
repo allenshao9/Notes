@@ -299,22 +299,11 @@ git push origin
 
 ### 常用操作命令
 
-```
-git add # 将工作区的修改提交到暂存区
-git commit # 将暂存区的修改提交到当前分支
-git reset # 回退到某一个版本
-git stash # 保存某次修改
-git pull # 从远程更新代码
-git push # 将本地代码更新到远程分支上
-git reflog # 查看历史命令
-git status # 查看当前仓库的状态
-git diff # 查看修改
-git log # 查看提交历史
-git revert # 回退某个修改
-```
+![](image/gitzl1.png)
+
+![image-20200828211901922](image/gitzl2.png)
 
 ## 推荐阅读
 
 - [Git 官方手册中文版](https://git-scm.com/book/zh/v2) 
-- [简单详细的Git教程](https://www.cnblogs.com/jjlee/p/10305194.html)
-- [Git常用命令详解](https://www.jianshu.com/p/360bdda5157f)
+- [Git教程](https://www.w3cschool.cn/git/git-uroc2pow.html)
