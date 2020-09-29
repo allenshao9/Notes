@@ -1,9 +1,10 @@
 <h1 align="center">Java学习指南</h1>
  <p align="center">
 <a href="https://ysshao.cn/Notes/#/" target="_self">
-	<img src="resource/image/robot.svg" width="60"/>
+	在线阅读
 </a>
 </p>
+
 
 ## 目录
 
