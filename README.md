@@ -1,38 +1,26 @@
 <h1 align="center">Java学习指南</h1>
  <p align="center">
 <a href="https://ysshao.cn/Notes/#/" target="_self">
-    点击在线阅读<br/>
-	 <img src="http://chuantu.xyz/t6/740/1598497440x-591238492.png" style="zoom:35%;" />
+	<img src="resource/image/robot.svg" width="60"/>
 </a>
 </p>
 
 ## 目录
 
-- [Java](#java)
-  - [并发](#并发)
-  - [JVM](#jvm)
-  - [I/O](#io)
-  - [Java 8](#java-8)
-  - [设计模式](#设计模式)
-  - [编程规范](#编程规范)
 - [应用框架](#应用框架)
-  - [前端框架](#前端框架)
-  - [后端框架](#后端框架)
+    - [前端框架](#前端框架)
+    - [后端框架](#后端框架)
 - [服务器软件](#服务器软件)
-  - [Web服务器](#Web服务器)
-  - [Web应用服务器](#Web应用服务器)
-- [操作系统](#操作系统)
-  - [计算机基础知识](#计算机基础知识)
-  - [Linux入门](#Linux初级入门)       
-  - [Linux进阶](#Linux中级进阶)
+    - [Web服务器](#Web服务器)
+    - [Web应用服务器](#Web应用服务器)
 - [数据库体系](#数据库)
-  - [Oracle](#Oracle)
-  - [DB2](#DB2)
-  - [Mysql](#Mysql) 
+    - [Oracle](#Oracle)
+    - [DB2](#DB2)
+    - [Mysql](#Mysql) 
 - [开发工具](#开发工具)
-  - [集成开发工具](#集成开发工具)
-  - [代码管理工具](#代码管理工具)
-  - [项目构建工具](#项目构建工具)
+    - [集成开发工具](#集成开发工具)
+    - [代码管理工具](#代码管理工具)
+    - [项目构建工具](#项目构建工具)
 - [说明](#说明)
 
 ## Java
@@ -41,19 +29,22 @@
 
 ### JVM
 
-### IO
-
 ### JAVA8
 
 ### 设计模式
 
 ### 编程规范
 
-## 应用框架
+## 开发框架
 
 ### 前端框架
 
 ### 后端框架
+
+ * [Spring入门教程](ysshao/frameworkdoc/Spring入门教程.md)
+ * [SpringMVC入门教程](ysshao/frameworkdoc/SpringMVC入门教程.md)
+ * [SpringBoot教程](ysshao/frameworkdoc/SpringBoot教程.md)
+
 
 ## 服务器软件
 
@@ -74,36 +65,43 @@
 ## 数据库体系
 
 ### Oracle
-
+ * [SQL优化思路](ysshao/dbdoc/SQL优化思路.md)
+ * [SQL优化案例](ysshao/dbdoc/SQL优化案例.md)
 ### DB2
-
+ * [DB2锁表超时分析](ysshao/dbdoc/DB2锁表超时分析.md)
 ### Mysql
 
 ## 开发工具
 
 ### 集成开发工具
+ * [IntelliJIDEA教程](ysshao/tooldoc/IntelliJIDEA教程.md)
 
 ### 代码管理工具
-
 * [Git入门教程](ysshao/tooldoc/Git入门教程.md)
 * [Git和SVN差异](ysshao/tooldoc/Git和SVN差异对比.md)
+* [GitLab仓库搭建](ysshao/tooldoc/GitLab环境搭建.md)
 
 ### 项目构建工具
+* [Maven教程](ysshao/tooldoc/Maven教程.md)
 
 ***
 
-## 持续更新
+## 更新说明
 
-- [ ] Spring全家桶(---正在进行中---)
-- [ ] Java并发、JVM(---计划中---)
-- [ ] 数据库、Linux(---计划中---)
+- [x] 集成开发工具IDEA(---已完成---)
+- [x] 代码管理工具Git(---已完成---)
+- [x] 项目构建工具(---已完成---)
+- [x] Spring必备(---Spring、SpringMVC、SpirngBoot初步教程整理完毕。---)
+- [ ] SpringBoot整合篇（整合Redis、RocketMQ、定时任务等，计划整理中。）
+- [ ] SpringCloud(---SpringCloud暂未整理,后续补充。---)
+- [ ] Java并发、JVM(---后续补充---)
+- [ ] 数据库、Linux(---后续补充---)
 
 ## 本站说明
 
 - 本站目的是记录技术学习笔记，分享技术学习笔记、技术文章、优秀资源。
-
 - 若您认为侵犯你的个人知识产权，请联系[邮箱](allenshao9@163.com)，我会第一时间和您进行沟通处理。
+- 若你喜欢本站内容，欢迎转载，但请注明出处，且勿用于商业用途，谢谢！
+- 90后, 码农程序员。所有的努力都值得期许,每一份梦想都应该灌溉！
 
-- 90后, 码农程序员。所有的努力都值得期许，每一份梦想都应该灌溉！
-
-  ![](http://chuantu.xyz/t6/740/1598498929x1700339730.jpg)
+<img src="resource/image/wx.jpg" alt="wx" style="zoom:67%;" /> 
