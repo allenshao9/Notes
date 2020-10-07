@@ -170,3 +170,16 @@ public class AuthorTest {
 >
 > 也可以通过`@ConfigurationProperties`读取配置信息并与 bean 绑定。
 
+## SpringCloud常用注解
+
+| 注解                    | 功能                                                         |
+| ----------------------- | ------------------------------------------------------------ |
+| @EnableEurekaServer     | 把当前微服务标记为Eureka注册中心 接收其他微服务的注册        |
+| @EnableEurekaClient     | 注册该微服务到Eureka中                                       |
+| @LoadBalanced           | 该注解写在配置RestTemplate的配置类方法上来启动ribbon负载均衡 |
+| @EnableFeignClients     | 写在主程序上来支持feign                                      |
+| @HystrixCommand         | 服务熔断和降级配置                                           |
+| @EnableCircuitBreaker   | 启用对Hystrix熔断机制的支持                                  |
+| @FeignClient            | springboot调用外部接口                                       |
+| @EnableHystrixDashboard | 加在主程序上启动服务监控                                     |
+

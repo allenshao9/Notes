@@ -1,5 +1,3 @@
-![](images/springframework.svg)
-
 # SpringMVC入门教程
 
 ## MVC 设计概述
