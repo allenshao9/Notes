@@ -45,6 +45,8 @@
  * [Spring入门教程](ysshao/frameworkdoc/Spring入门教程.md)
  * [SpringMVC入门教程](ysshao/frameworkdoc/SpringMVC入门教程.md)
  * [SpringBoot教程](ysshao/frameworkdoc/SpringBoot教程.md)
+ * [SpringCloud教程](ysshao/frameworkdoc/SpringCloud教程.md)
+ * [Spring常用注解](ysshao/frameworkdoc/Spring常用注解.md)
 
 
 ## 服务器软件
@@ -93,9 +95,8 @@
 - [x] 代码管理工具Git(---已完成---)
 - [x] 项目构建工具(---已完成---)
 - [x] Spring必备(---Spring、SpringMVC、SpirngBoot初步教程整理完毕。---)
-- [ ] SpringBoot整合篇（整合Redis、RocketMQ、定时任务等，计划整理中。）
-- [ ] SpringCloud(---SpringCloud暂未整理,后续补充。---)
-- [ ] Java并发、JVM(---后续补充---)
+- [x] SpringCloud(---SpringCloud整体介绍。---)
+- [ ] SpringBoot整合篇（整合Redis、RocketMQ、定时任务等，后续补充。）
 - [ ] 数据库、Linux(---后续补充---)
 
 ## 本站说明

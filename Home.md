@@ -87,7 +87,6 @@
 - [x] Spring必备(---Spring、SpringMVC、SpirngBoot初步教程整理完毕。---)
 - [x] SpringCloud(---SpringCloud整体介绍。---)
 - [ ] SpringBoot整合篇（整合Redis、RocketMQ、定时任务等，后续补充。）
-- [ ] Java并发、JVM(---后续补充---)
 - [ ] 数据库、Linux(---后续补充---)
 
 ## 本站说明
