@@ -3468,7 +3468,7 @@ public class HelloCommandLineRunner implements CommandLineRunner {
 
 # 推荐阅读
 
-本文档内容参考尚硅谷SpringBoot教程，推荐各位朋友进行学习。
+> 本文档内容参考尚硅谷SpringBoot教程，推荐各位朋友进行学习。
 
 [SpringBoot教程](http://c.biancheng.net/spring_boot/)
 
