@@ -88,7 +88,7 @@
 - [x] 项目构建工具(---已完成---)
 - [x] Spring必备(---Spring、SpringMVC、SpirngBoot初步教程整理完毕。---)
 - [x] SpringCloud(---SpringCloud整体介绍。---)
-- [ ] SpringBoot整合篇（整合Redis、RocketMQ、定时任务等，后续补充。）
+- [x] SpringBoot整合篇（整合Redis、RocketMQ、定时任务等，案例代码已上传。）
 - [ ] 数据库、Linux(---后续补充---)
 
 ## 本站说明
