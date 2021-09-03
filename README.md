@@ -81,6 +81,7 @@
 
 ### 代码管理工具
 * [Git入门教程](ysshao/tooldoc/Git入门教程.md)
+* [Git强烈推荐阅读](ysshao/tooldoc/Git优质教程资料.md)
 * [Git和SVN差异](ysshao/tooldoc/Git和SVN差异对比.md)
 * [GitLab仓库搭建](ysshao/tooldoc/GitLab环境搭建.md)
 
