@@ -1,5 +1,5 @@
 
-<h1 align="center">程序学习指南</h1>
+<h1 align="center">JAVA学习指南</h1>
  <p align="center">
 <a href="https://ysshao.cn/Notes/#/" target="_self">
 	<img src="resource/image/robot.svg" width="60"/>

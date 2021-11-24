@@ -136,7 +136,7 @@ jcmd拥有jmap的大部分功能，并且Oracle官方也建议使用jcmd代替jm
 
 Jconsole是JDK自带的监控工具，在JDK/bin目录下可以找到（jconsole.exe）。它用于连接正在运行的本地或者远程的JVM，对运行在java应用程序的资源消耗和性能进行监控，并画出大量的图表，提供强大的可视化界面。而且本身占用的服务器内存很小，甚至可以说几乎不消耗。
 
-![image-20211124102216135](C:\SoftWare\DeveSoft\GitHub\ysshao-blog\ysshao\javadoc\images\image-20211124102216135.png)
+![image-20211124102216135](images\image-20211124102216135.png)
 
 > 如果需要使用 JConsole 连接远程进程，可以在远程 Java 程序启动时加上下面这些参数:
 >
@@ -147,7 +147,7 @@ Jconsole是JDK自带的监控工具，在JDK/bin目录下可以找到（jconsole
 > -Dcom.sun.management.jmxremote.ssl=false
 > ```
 
-![image-20211124105947939](C:\SoftWare\DeveSoft\GitHub\ysshao-blog\ysshao\javadoc\images\image-20211124105947939.png)
+![image-20211124105947939](images\image-20211124105947939.png)
 
 Jconsole能捕获到以下信息：
 
@@ -164,7 +164,7 @@ VisualVM 是一款免费的，集成了多个 JDK 命令行工具的可视化工
 
 远程连接方式同JConsole。需要监控的进程添加jvm参数。
 
-![image-20211124110021595](C:\SoftWare\DeveSoft\GitHub\ysshao-blog\ysshao\javadoc\images\image-20211124110021595.png)
+![image-20211124110021595](images\image-20211124110021595.png)
 
 VisualVM 可提供
 
@@ -217,13 +217,13 @@ linux下安装：`wget https://alibaba.github.io/arthas/arthas-boot.jar`
 
 运行`java -jar arthas-boot.jar`
 
-![image-20211124111644645](C:\SoftWare\DeveSoft\GitHub\ysshao-blog\ysshao\javadoc\images\image-20211124111644645.png)
+![image-20211124111644645](images\image-20211124111644645.png)
 
 - **整体监控数据**
 
 在arthas的命令行界面，输入`dashboard`，会实时展示当前进程的的多线程状态、Jvm各区域、GC情况等信息
 
-![image-20211124112025332](C:\SoftWare\DeveSoft\GitHub\ysshao-blog\ysshao\javadoc\images\image-20211124112025332.png)
+![image-20211124112025332](images\image-20211124112025332.png)
 
 - **查看线程监控数据**
 
@@ -235,7 +235,7 @@ linux下安装：`wget https://alibaba.github.io/arthas/arthas-boot.jar`
 
   输入thread -b 会显示当前处于BLOCKED状态的线程，可以排查线程锁的问题
 
-  ![image-20211124112312937](C:\SoftWare\DeveSoft\GitHub\ysshao-blog\ysshao\javadoc\images\image-20211124112312937.png)
+  ![image-20211124112312937](images\image-20211124112312937.png)
 
 - **查看JVM数据**
 
@@ -265,4 +265,3 @@ linux下安装：`wget https://alibaba.github.io/arthas/arthas-boot.jar`
 
 1. MemoryAnalyzer工具堆转储文件，用于分析内存溢出或泄露情况。
 2. IBM的相关jar包，jca465.jar分析javacore文件；ha457.jar分析堆dmp文件。
-
