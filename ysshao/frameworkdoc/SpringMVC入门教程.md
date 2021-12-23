@@ -764,6 +764,6 @@ public class UploadController {
 
 ## 参考资料：
 
--  [SpringMVC入门教程]([Spring MVC框架入门教程 (biancheng.net)](http://c.biancheng.net/spring_mvc/))
+-  [SpringMVC入门教程](http://c.biancheng.net/spring_mvc/)
 
 -  [Spring MVC 教程](http://how2j.cn/k/springmvc/springmvc-springmvc/615.html#step1891)
